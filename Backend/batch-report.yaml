@@ -1,0 +1,11 @@
+status: completed
+required_endpoints:
+  - {method: GET, path: /api/v1/health, status: implemented}
+  - {method: POST, path: /api/v1/risk/analyze-transaction, status: implemented}
+  - {method: POST, path: /api/v1/rescue/sos, status: implemented}
+tests: "2 passed"
+validation:
+  compileall: passed
+  smoke: passed
+warnings:
+  - "OCR and trained-model integration remain optional simulation components; no external systems are contacted."

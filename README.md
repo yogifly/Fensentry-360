@@ -12,6 +12,7 @@ managed from one dashboard.
 
 ## Contents
 
+- [New user demo guide](DEMO_GUIDE.md)
 - [Product scope](#product-scope)
 - [Architecture](#architecture)
 - [Repository structure](#repository-structure)
@@ -425,4 +426,3 @@ use prototype scores as an automatic real-world payment decision.
 - Add backups, monitoring, alerting, and disaster recovery.
 - Complete security testing, privacy review, legal review, and compliance
   certification.
-
